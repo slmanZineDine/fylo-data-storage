@@ -6,15 +6,6 @@
 }
 *::before , *::after { box-sizing: border-box; }
 .container { padding: 0 25px; margin: auto; }
-/* @media (min-width: 768px) {
-    .container { width: 750px; }
-}
-@media (min-width: 992px) {
-    .container { width: 970px; }
-}
-@media (min-width: 1200px) {
-    .container { width: 1170px; }
-} */
 /* Vaiables */
 :root {
     --paleBlue: hsl(243, 100%, 93%);

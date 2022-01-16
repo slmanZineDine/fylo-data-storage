@@ -1,31 +1,60 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+    <!-- Render All Elements normal -->
+    <link rel="stylesheet" href="css/normalize.css">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;500;800&family=Raleway:wght@400;700&display=swap" rel="stylesheet">
+    <!-- Main Css File -->
+    <link rel="stylesheet" href="css/style.css">
+    
+    <title>Frontend Mentor | Fylo data storage component</title>
 
-  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
-  <title>Frontend Mentor | Fylo data storage component</title>
-
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
 </head>
 <body>
 
-  You’ve used 815 GB of your storage
-
-  185 GB Left
-  
-  0 GB
-  1000 GB
-  
-  <div class="attribution">
+    <section class="data-storage">
+        <div class="container">
+            <div class="services">
+                <img class="logo" src="images/logo.svg" alt="logo">
+                <div class="links">
+                    <a href="">
+                        <img src="images/icon-document.svg" alt="">
+                    </a>
+                    <a href="">
+                        <img src="images/icon-folder.svg" alt="">
+                    </a>
+                    <a href="">
+                        <img src="images/icon-upload.svg" alt="">
+                    </a>
+                </div>
+            </div>
+            <div class="data-usage">
+                <p>You’ve used <span>815 GB</span> of your storage</p>
+                <div class="info">
+                    <div class="data-left">
+                        <span>185</span>
+                        <span>GB LEFT</span>
+                    </div>
+                    <div class="range">
+                        <span></span>
+                    </div>
+                    <div class="limit">
+                        <span>0 GB</span>
+                        <span>1000 GB</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Footer -->
+    <div class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
-  </div>
+    Coded by <a href="https://github.com/slmanZineDine">Slman Zinedine</a>.
+    </div>
 </body>
 </html>
